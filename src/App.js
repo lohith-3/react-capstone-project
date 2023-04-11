@@ -1,10 +1,12 @@
 import React from "react";
 
+import Directory from "./components/directory/directory.component";
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <>
+      <Directory />
+    </>
   );
 };
 
